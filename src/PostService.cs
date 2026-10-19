@@ -4,5 +4,5 @@ namespace Demo;
 
 public class PostService
 {
-    public string CreateSlug(string title) => Slugifier.Slugify(title);
+    public string CreateSlug(string title) => Slug.Create(title);
 }
